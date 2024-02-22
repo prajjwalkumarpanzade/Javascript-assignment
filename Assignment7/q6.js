@@ -6,7 +6,7 @@ function mergeById(arr1, arr2) {
   const map = {};
 
   // Store objects from arr1 in hashmap indexed by id
-  for (const obj of arr1) {
+  for (const obj of arr1) { 
     map[obj.id] = obj;
   }
 
