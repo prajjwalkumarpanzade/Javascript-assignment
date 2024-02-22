@@ -6,7 +6,7 @@ let users = [{
   }, {
   "id": 2,
   "first_name": "Raychel",
-  "email": "rmcgrady1@cpanel.net",
+  "email": "rmcgrady1@cpanel.net", 
   "date_of_birth": "1996/11/05"
   }];
 
