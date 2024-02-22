@@ -10,7 +10,7 @@ function mergeById(arr1, arr2) {
     map[obj.id] = obj;
   }
 
-  // Merge objects from arr2 with same id
+  // Merge objects from arr2 with same id 
   for (const obj of arr2) {
     if (map[obj.id]) {
       Object.assign(map[obj.id], obj);
