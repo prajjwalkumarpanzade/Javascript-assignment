@@ -2,7 +2,7 @@ const arr = ["apple", "windows", "apple", "ubuntu", "cola", "system", "laptop", 
 
 for (let i = 0; i < arr.length; i++) {
   let count = 0;
-  for (let j = 0; j < arr.length; j++) {
+  for (let j = 0; j < arr.length; j++) { 
     if (arr[i] === arr[j]) {
       count++;
     }
