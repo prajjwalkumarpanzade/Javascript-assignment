@@ -60,4 +60,4 @@ function searchFilter(){
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('loading').style.display = 'block';
     addValueIntoTable();
-});
+}); 
